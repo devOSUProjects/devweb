@@ -1,0 +1,78 @@
+
+body {
+	float: left;
+	overflow-y: scroll;
+	background-color: grey;
+}
+
+
+h1 {
+  display: block;
+  padding-top: -4em;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+header {
+  background-color: darkblue;
+  padding: 25px;
+  padding-top: 1px;
+  margin: -.5em;
+  width: 1800px;
+
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+
+a.headernav {
+  margin: .4em;
+  padding: .4em;
+  text-decoration: none;
+  color: tan;
+}
+
+div.row {
+  margin-top: 5em;
+  margin-bottom: 10em;
+  height: 650px;
+  background-color: white;
+  width: 50%;
+  margin-left: 28em;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  
+}
+
+
+div.column {
+}
+
+
+footer {
+	position: absolute;
+	top: 1100px;
+	width: 100%;
+	background-color: darkblue;
+	text-align: center;
+	margin-left: -1em;
+	color: white;
+}
+
+#contacts {
+	background-color: white;
+	padding: 2em;
+	width: 50%;
+	margin-top: 2em;
+	margin-left: 1em;
+}
+
+
+
+
+	

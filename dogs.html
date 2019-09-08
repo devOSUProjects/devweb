@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="The bestness">
+		<title>Devin's Website</title>
+	</head>
+
+	<body>
+		<header>
+			<h1>Devin's Website.</h1>
+			<nav> 
+			<a href="index.html" class="headernav">Home</a>
+			<a href="contacts.html" class="headernav">Contacts</a>
+			<a href="dogs.html" class="headernav">Dogs</a>
+			<a href="index.html" class="headernav">Nav4</a>
+			<a href="index.html" class="headernav">Nav5</a>
+			</nav>
+		</header>
+
+		<main>
+			<div id="dogs"></div>
+
+		</main>
+
+		<footer>
+			<h3>This is the footer.</h3>
+
+		</footer>
+
+
+
+		<script id="dogsTemplate" type="text/x-handlebars-template">
+		{{#each this}}
+			<div class="pet">
+				<div class="photo">
+					<!--<img src="{{picture}}">-->
+				</div>
+				<div class="info">
+				<p>Name: {{name}} <br>
+				Food: {{FoodBrand}}</p>
+				</div>
+			</div>
+
+
+	
+		{{/each}}
+				
+
+
+
+		</script>
+		<script src="js/handlebars.js"></script>
+		<script src="js/next.js"></script>
+
+	</body>
+</html>
+
+
+
