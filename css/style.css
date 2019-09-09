@@ -72,6 +72,27 @@ footer {
 	margin-left: 1em;
 }
 
+#dogs {
+	display: flex;
+	margin-top: 2em;
+}
+
+.pet {
+	background-color: lightgrey;
+	padding: 2em;
+	margin-left: 1.3em;
+
+}
+
+.info {
+	background-color: silver;
+	padding: 1.5em;
+	margin-top: 1.3em;
+	font-size: 1.3em;
+	color: green;
+}
+
+
 
 
 
